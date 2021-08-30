@@ -1,0 +1,45 @@
+:root {
+  --bg-color: #c3c9f6;
+  --primary-color: #f472b6;
+  --black-color: black;
+}
+
+body {
+  background-image: url(image.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.container {
+  margin: auto;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  border: none;
+  width: 19rem;
+  min-height: 50px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: var(--bg-color);
+}
+
+#btn {
+  border: 1px solid var(--black-color);
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: var(--primary-color);
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}

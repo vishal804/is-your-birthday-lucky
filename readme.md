@@ -1,0 +1,1 @@
+A web app which which takes your birthdate and lucky number, performs calculations and tells if your birthdate is lucky or not.
